@@ -54,7 +54,7 @@ For Debian-based distributions, *dpkg-dev* and *fakeroot* are required.
     dpkg-buildpackage -b -uc
     dpkg -i ../yumbootstrap*.deb
 
-For Red Hat derivatives you need *rpm-build*.
+For Red Hat derivatives you need *rpm-build* and *make*.
 
     make srpm
     rpmbuild --rebuild yumbootstrap-*.src.rpm
